@@ -2,4 +2,9 @@ Zeroputer Sidecar
 
 Protocol, ES3C28P firmware, tools, and docs in this repository are MIT.
 
-If you integrate the ADV-side shim into Bruce firmware (https://github.com/BruceDevices/firmware), that combined work is subject to Bruce's AGPL-3.0 license.
+If you integrate the ADV-side shim into Bruce firmware
+(https://github.com/BruceDevices/firmware), that combined work is subject to
+Bruce's AGPL-3.0 license. Keep the shim in firmware/adv/ as a standalone
+demo unless you are prepared to publish the AGPL derivative.
+
+This project does not bundle Bruce, LVGL, ESP-IDF, or vendor LCDWiki blobs.
