@@ -1,0 +1,16 @@
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+cmake-build-*/
+sdkconfig.old
+dependencies.lock
+managed_components/
+__pycache__/
+*.pyc
+.DS_Store
+secrets.h
+*.bin
+*.elf
+*.map
+!firmware/**/partitions.csv
